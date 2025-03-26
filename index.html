@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>HTML Volunteer Form</title>
@@ -14,8 +13,7 @@
     <div><label>first name:<input type="text" name="first_name_field"></label></div>
     <div><label>last name:<input type="text" name="last_name_field"></label></div>
     <div><label>phone:<input type="text" name="phone_field"></label></div>
-    <div><label>email:<input type="text" name="email_field"></label></div>
-    
+    <div><label>email:<input type="text" name="email_field"></label></div> 
     <div><label>Gender:</label></div>
     <div>
         <label>Male<input type="radio" name="gender_field" value="Male"></label>
@@ -23,15 +21,13 @@
     </div>
     <div>Age:</div>
       <select name="age_field">
-        <option value="<18" selected>under 18</option>
-        <option value=">18">over 18</option>
+        <option>under 18</option>
+        <option>over 18</option>
       </select>
   </fieldset>
-
   <fieldset>
     <legend>My Availability</legend> 
-    <h3><strong>Days Available:</strong></h3>
-    
+    <h3><strong>Days Available:</strong></h3>  
     <div><label>Sunday<input type="checkbox" name="available_field[]" value="Sunday"></label></div>
     <div><label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label></div>
     <div><label>Tuesday<input type="checkbox" name="available_field[]" value="Tuesday"></label></div>
@@ -39,7 +35,6 @@
     <div><label>Thursday<input type="checkbox" name="available_field[]" value="Thursday"></label></div>
     <div><label>Friday<input type="checkbox" name="available_field[]" value="Friday"></label></div>
     <div><label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label></div>
-
     <h3>Comments</h3>
     <textarea name="comments_field" cols="20" rows="2"></textarea>  
   </fieldset>
@@ -47,4 +42,5 @@
   <input type="submit" value="Submit Query">
 </form>
 </body>
+
 </html>
